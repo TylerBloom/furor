@@ -3,5 +3,15 @@ name = "furor"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "furor"
+path = "src/lib.rs"
+
+[[bin]]
+name = "furor"
+path = "src/main.rs"
+
 [dependencies]
+itertools = "0.13.0"
 num-bigint = "0.4.6"
+rand = "0.8.5"
